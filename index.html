@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="seggings-wrap">
+        <div id="settings">
+            <table>
+                <tr><td>Начальное количество квадратов</td><td><input type="number" id="count" value="10" min="2"/></td></tr>
+                <tr><td>Изначальный размер квадрата</td><td><input type="number" id="start-size" value="20" min="1"/></td></tr>
+                <tr><td>Минимальный размер квадрата</td><td><input type="number" id="min-size" value="2" min="1"/></td></tr>
+            </table>
+            <button id="start">Start</button>
+        </div>
+    <div id="game"></div>
+    <script src="js/Vector.js" type="application/javascript"></script>
+    <script src="js/Quad.js" type="application/javascript"></script>
+    <script src="js/Game.js" type="application/javascript"></script>
+    <script src="js/code.js" type="application/javascript"></script>
+</body>
+</html>
